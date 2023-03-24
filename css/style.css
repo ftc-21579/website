@@ -1,0 +1,124 @@
+#homepage {
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50vh;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-position-y: -75vh;
+        background-position-x: -50vw;
+    }
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-color {
+    background-color: rgba(255,255,255,0.74);
+    backdrop-filter: blur(10px) brightness(60%);
+}
+
+#index-page {
+    margin-top: 50vh;
+}
+
+.wave-border {
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+.red-bg {
+    background-color: #E22929;
+    color: #ffffff;
+}
+
+.white-bg {
+    background-color: #FAF9F6;
+    color: #121316;
+}
+
+.blue-bg {
+    background-color: #1292E3;
+    color: #121316;
+}
+
+#page {
+    background-color: #FAF9F6;
+    color: #121316;
+    min-height: 100vh;
+}
+
+.row .red-bg, .white-bg {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.first-cols {
+    margin-left: 3ch;
+    margin-right: 3ch;
+}
+
+#about-ftc {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+#ftc-logo {
+    align-self: center;
+}
+
+#ftc-video-container {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.video {
+    align-self: center;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.75ch;
+}
+
+.page-title {
+    padding-top: 5ch;
+}
+
+.card-image {
+    object-fit: cover;
+}
+
+.robot-col {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.robot-img {
+    border-color: #E22929;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.75ch;
+}
+
+.robot-container {
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.stats {
+    padding: 1ch;
+    border-radius: 15px;
+}
+
+.sponsor-image {
+    width: 60%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.remove-bg {
+    mix-blend-mode: color-burn;
+}
