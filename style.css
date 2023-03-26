@@ -10,6 +10,11 @@
         background-position-y: -75vh;
         background-position-x: -50vw;
     }
+
+    #homepage {
+        background-position-y: -60vh;
+        background-size: inherit;
+    }
 }
 
 .nav-item {
