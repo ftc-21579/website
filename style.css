@@ -118,12 +118,31 @@
     border-radius: 15px;
 }
 
-.sponsor-image {
-    width: 60%;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-}
-
 .remove-bg {
     mix-blend-mode: color-burn;
+}
+
+.sponsor-card {
+    min-height: 10vh;
+    max-height: 10vh;
+    border-radius: 1rem;
+    border: 3px solid #E22929;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+#bulldog {
+    height: 15vw;
+}
+
+#nasa {
+    height: 20vw;
+}
+
+#guardians {
+    height: 20vw;
+}
+
+#phantom {
+    height: 5vw;
 }
